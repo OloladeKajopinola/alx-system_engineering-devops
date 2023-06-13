@@ -1,2 +1,2 @@
 #!/bin/bash
-read input; rev "$input"
+read input; rev <<< "$input"
