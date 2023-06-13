@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=":" read -ra directories <<< "$PATH"; echo "Number of directories in PATH: ${#directories[@]}"
+find -mindepth 1 -type d | wc -l
